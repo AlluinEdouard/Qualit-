@@ -13,6 +13,7 @@ class Plateau{
 	this.ajouterPiece(new Fou('B', new Position("F1")));
 	this.ajouterPiece(new Cavalier('B', new Position("G1")));
 	this.ajouterPiece(new Tour('B', new Position("H1")));
+	this.ajouterPiece(new Tavalier('B', new Position("H3")));
 
 	for(char c = 'A'; c < 'I' ; c++){
 	    this.ajouterPiece(new PionBlanc(new Position(c+"2")));
@@ -27,6 +28,7 @@ class Plateau{
 	this.ajouterPiece(new Fou('N', new Position("F8")));
 	this.ajouterPiece(new Cavalier('N', new Position("G8")));
 	this.ajouterPiece(new Tour('N', new Position("H8")));
+	this.ajouterPiece(new Tavalier('N', new Position("H6")));
     }
 
 
